@@ -78,7 +78,7 @@ http://127.0.0.1:8000/docs
 ---
 ## 📌 Example Request
 curl -X POST http://127.0.0.1:8000/generate \
-  -H "Authorization: Bearer dev-key-123" \
+  -H "Authorization: Bearer your-api-key" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "Hello"}'
 
