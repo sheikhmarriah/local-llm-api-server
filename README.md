@@ -73,13 +73,7 @@ Go to:
 http://127.0.0.1:8000/docs
 
 ---
----
 
-## API Key
-Use:
-dev-key-123
-
----
 
 ---
 ## 📌 Example Request
