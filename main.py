@@ -42,8 +42,8 @@ security = HTTPBearer(auto_error=False)
 
 # Demo API keys — in production, store hashed keys in PostgreSQL
 VALID_API_KEYS = {
-    hashlib.sha256("dev-key-123".encode()).hexdigest(),
-    hashlib.sha256("prod-key-xyz".encode()).hexdigest(),
+    hashlib.sha256("your-api-key1".encode()).hexdigest(),
+    hashlib.sha256("your-api-key2".encode()).hexdigest(),
 }
 
 def verify_api_key(credentials: Optional[HTTPAuthorizationCredentials] = Depends(security)):
