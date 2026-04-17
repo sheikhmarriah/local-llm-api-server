@@ -1,5 +1,5 @@
 """
-Project 1: Local LLM API Server
+Local LLM API Server
 Wraps Ollama with a production-grade FastAPI layer:
 - Streaming & non-streaming inference
 - Rate limiting, API key auth, request validation
